@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="LICENSE" />
+    <None Remove="README.md" />
     <None Remove="Resources\Information.png" />
     <None Remove="Resources\RedTriangle.png" />
     <None Remove="Resources\YellowTriangle.png" />

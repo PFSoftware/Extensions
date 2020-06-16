@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Information.png" />
+    <None Remove="Resources\RedTriangle.png" />
+    <None Remove="Resources\YellowTriangle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Baseclass.Contrib.Nuget.Output" Version="2.4.3" />
+    <PackageReference Include="libsodium-net" Version="0.10.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Information.png" />
+    <Resource Include="Resources\RedTriangle.png" />
+    <Resource Include="Resources\YellowTriangle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SQLite.Interop.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

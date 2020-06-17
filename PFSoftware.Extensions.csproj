@@ -16,8 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Baseclass.Contrib.Nuget.Output" Version="2.4.3" />
-    <PackageReference Include="libsodium-net" Version="0.10.0" />
+    <PackageReference Include="Konscious.Security.Cryptography.Argon2" Version="1.2.1" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />
   </ItemGroup>
 

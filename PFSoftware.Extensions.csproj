@@ -25,10 +25,4 @@
     <Resource Include="Resources\RedTriangle.png" />
     <Resource Include="Resources\YellowTriangle.png" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="SQLite.Interop.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
